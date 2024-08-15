@@ -1,0 +1,12 @@
+.carousel{
+    mask-image: linear-gradient(white 80%, transparent);
+}
+
+.box {
+    opacity: 0;
+    transition: opacity 2s ease-out;
+  }
+  
+  .box.visible {
+    opacity: 1;
+  }
